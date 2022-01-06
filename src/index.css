@@ -17,10 +17,12 @@ code {
   height: 100vh;
 }
 
-left {
+.left {
+  flex: 0 0 60%;
   background-color: brown;
 }
 
-right {
+.right {
+  flex: 0 0 40%;
   background-color: blue;
 }
