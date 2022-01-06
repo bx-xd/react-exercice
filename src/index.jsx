@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
-import App from './App';
+import Left from "./components/left";
+import Right from "./components/right";
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div>
+      <Left />
+      <Right />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
