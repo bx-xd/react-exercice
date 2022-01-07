@@ -4,7 +4,7 @@ class Left extends Component {
   render() {
     return (
       <div className="left">
-        <p>Partie gauche</p>
+        <input type="text" />
       </div>
     )
   }
