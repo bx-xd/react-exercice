@@ -1,10 +1,13 @@
 import { Component } from "react";
+import Search from './search'
+import Gif from './gif'
 
 class Left extends Component {
   render() {
     return (
       <div className="left">
-        <input type="text" id="search" class="form-control" />
+        <Search />
+        <Gif />
       </div>
     )
   }

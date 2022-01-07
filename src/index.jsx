@@ -2,17 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.css';
-import Left from "./components/left";
-import Right from "./components/right";
+import App from "./components/app";
 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>
-      <Left />
-      <Right />
-    </div>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
