@@ -4,7 +4,7 @@ class Left extends Component {
   render() {
     return (
       <div className="left">
-        <input type="text" />
+        <input type="text" id="search" class="form-control" />
       </div>
     )
   }
