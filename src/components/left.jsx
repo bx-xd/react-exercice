@@ -7,7 +7,7 @@ class Left extends Component {
     return (
       <div className="left">
         <Search />
-        <Gif />
+        <Gif id="ZJjs83nX1Z87EWvGCp"/>
       </div>
     )
   }

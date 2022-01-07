@@ -43,16 +43,16 @@ code {
 .right {
   flex: 0 0 40%;
   background-color: #eff0f1;
-  overflow-y: scroll;
+  overflow: scroll;
 }
 
-.right > .gift-list {
+.right > .gif-list {
   column-count: 2;
   column-gap: 5px;
   padding: 5px;
 }
 
-.right > .gift-list > .gif {
+.right > .gif-list > .gif {
   max-width: 100%;
   margin: 5px;
   cursor: pointer;
